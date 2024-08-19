@@ -1,0 +1,502 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMW Group</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=BMWGroupTNCondensedProTT-Regular">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="icon"
+        href="data:image/jpeg;base64,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">
+</head>
+
+<body>
+    <nav class="navigation">
+        <header class="logos">
+            <div class="bmwgrouplogo"><img
+                    src="	https://www.bmwgroup.com/content/dam/grpw/websites/bmwgroup_com/logo/svg/Logo_BMW_GROUP.svg">
+            </div>
+            <div class="bmwlogo"><img src="file:///C:/Users/hp/Desktop/BMW/images/Logo_BMW.svg"></div>
+            <div class="minilogo"><img src="file:///C:/Users/hp/Desktop/BMW/images/Logo_MINI.svg"></div>
+            <div class="rollslogo"><img src="file:///C:/Users/hp/Desktop/BMW/images/Logo_Rolls-Royce.svg"></div>
+        </header>
+        <div class="menus">
+            <p>News site</p>
+            <p>carees</p>
+            <p>Downloads</p>
+            <p>|</p>
+            <p>DE</p>
+            <p class="englishlanguage">EN</p>
+            <p>|</p>
+            <i class="fa-solid fa-magnifying-glass searchlogo"></i>
+            <p>|</p>
+            <p>Menu</p>
+            <i class="fa-solid fa-bars menulogo"></i>
+        </div>
+    </nav>
+    <section class="section-1">
+        <div class="bodyimage">
+            <img
+                src="https://www.bmwgroup.com/content/grpw/websites/bmwgroup_com/en/_jcr_content/main/multidownload/carouselstack/teaser_91433684.coreimg.82.1920.jpeg/1711010598878/neue-klasse-x-2560x896.jpeg">
+        </div>
+        <div class="bodytext">
+            <h1>THE BMW VISION NEUE KLASSE X.</h1>
+        </div>
+        <div class="learnmore">
+            <h3>LEARN MORE</h3>
+            <i class="fa-solid fa-chevron-right"></i>
+        </div>
+
+        <div class="chevron">
+            <div class="chevronleft">
+                <i class="fa-solid fa-chevron-left"></i>
+            </div>
+            <div class="chevronright">
+                <i class="fa-solid fa-chevron-right"></i>
+            </div>
+        </div>
+
+    </section>
+
+    <section class="section-2">
+        <div class="line-1"></div>
+        <div class="line-2"></div>
+        <div class="line-3"></div>
+        <div class="line-4"></div>
+        <i class="fa-solid fa-pause"></i>
+
+    </section>
+
+    <div class="section-3">
+        <i class="fa-solid fa-bars menulogo"></i>
+        <h1 class="section-3text">THE BMW GROUP AT A GLANCE.</h1>
+
+        <div class="allcontainers">
+            <div class="section-3container">
+                <div class="containerimage">
+                    <img
+                        src="https://www.bmwgroup.com/content/grpw/websites/bmwgroup_com/en/_jcr_content/main/layoutcontainer_1610/columncontrol_copy_c/columncontrolparsys/poolteaser.coreimg.82.480.jpeg/1707217969663/720x480-unternehmen-bmw-group.jpeg">
+                </div>
+                <div class="containertext">
+                    <p>COMPANY.</p>
+                </div>
+            </div>
+
+            <div class="section-3container">
+                <div class="containerimage">
+                    <img
+                        src="https://www.bmwgroup.com/content/grpw/websites/bmwgroup_com/en/_jcr_content/main/layoutcontainer_1610/columncontrol_copy_c/columncontrolparsys/poolteaser_copy.coreimg.82.480.jpeg/1707217992377/p90486324-highres-the-new-bmw-i7-xdriv-720x480.jpeg">
+                </div>
+                <div class="containertext">
+                    <p>INNOVATION.</p>
+                </div>
+            </div>
+
+            <div class="section-3container">
+                <div class="containerimage">
+                    <img
+                        src="https://www.bmwgroup.com/content/grpw/websites/bmwgroup_com/en/_jcr_content/main/layoutcontainer_1610/columncontrol_copy_c/columncontrolparsys/poolteaser_copy_815219951.coreimg.82.480.jpeg/1721054436692/bmwgroup-nachhaltigkeit-720x480px.jpeg">
+                </div>
+                <div class="containertext">
+                    <p>SUSTAINABILITY.</p>
+                </div>
+            </div>
+
+            <div class="section-3container">
+                <div class="containerimage">
+                    <img
+                        src="https://www.bmwgroup.com/content/grpw/websites/bmwgroup_com/en/_jcr_content/main/layoutcontainer_1610/columncontrol_copy_c/columncontrolparsys/poolteaser_copy_copy.coreimg.82.480.jpeg/1714995459714/720x480-investor-relations-crosslink-teaser-kennzahlen.jpeg">
+                </div>
+                <div class="containertext">
+                    <p>INVESTOR RELATIONS.</p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+    <div class="section-4">
+        <i class="fa-solid fa-bars menulogo"></i>
+        <h1 class="section-3text">BE INSPIRED.</h1>
+
+        <div class="section-4container">
+            <div class="section-4image">
+                <img
+                    src="https://www.bmwgroup.com/content/grpw/websites/bmwgroup_com/en/_jcr_content/main/layoutcontainer_copy/columncontrol/columncontrolparsys/teasertextimage_0_co.coreimg.82.852.png/1722407438094/bmw-key-visual-report-ohne-logo-720.png">
+                <div class="section-4text">
+                    <h1>HALF-YEAR REPORT TO 30 JUNE 2024.</h1>
+                </div>
+            </div>
+
+            <div class="section-4image">
+                <img
+                    src="https://www.bmwgroup.com/content/grpw/websites/bmwgroup_com/en/_jcr_content/main/layoutcontainer_copy/columncontrol/columncontrolparsys/teasertextimage_0_co_2062421222.coreimg.82.852.jpeg/1721055315500/bmwgroup-nachhaltigkeit-720x720px.jpeg">
+                <div class="section-4text">
+                    <h1>WE MAKE THE BMW GROUP SUSTAINABLE.</h1>
+                </div>
+            </div>
+
+            <div class="section-4image">
+                <img
+                    src="https://www.bmwgroup.com/content/grpw/websites/bmwgroup_com/en/_jcr_content/main/layoutcontainer_copy/columncontrol/columncontrolparsys/teasertextimage_0_co_2146410633.coreimg.82.852.jpeg/1708072911936/ac24-website-720x720.jpeg">
+                <div class="section-4text">
+                    <h1>BMW GROUP ANNUAL CONFERENCE 2024.</h1>
+                </div>
+            </div>
+
+        </div>
+
+
+
+    </div>
+
+
+    <div class="section-5">
+        <i class="fa-solid fa-bars menulogo"></i>
+        <h1 class="section-3text">OUR CURRENT TOPICS.</h1>
+
+        <div class="s1">
+
+            <div class="s1image">
+                <img
+                    src="https://www.bmwgroup.com/content/dam/grpw/websites/bmwgroup_com/News/2024/1280x854_RadHub_News_Teaser.png">
+            </div>
+            <div class="s1text">
+                <div class="s1smalltext">
+                    <p>COMPANY.</p>
+                    <p>|</p>
+                    <p>14.08.2024</p>
+                    <p>|</p>
+                    <i class="fa-regular fa-clock"></i>
+                    <p>3 Min.</p>
+                </div>
+                <div class="s1largetext">
+                    <p>THE WORLD IN 2050 ? -BMW rad<sup>o</sup>hub AT LONDON CLIMATE ACTION WEEK.</p>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="s2">
+            <div class="s2-a">
+                <div class="s2image-1">
+                    <img
+                        src="https://www.bmwgroup.com/content/dam/grpw/websites/bmwgroup_com/News/2024/1280x854_Automatisiertes_Fahren_News_Teaser.png">
+                </div>
+                <div class="s2text">
+                    <div class="s2smalltext">
+                        <p>INNOVATION</p>
+                        <p>|</p>
+                        <p>02.08.2024</p>
+                        <p>|</p>
+                        <i class="fa-regular fa-clock"></i>
+                        <p>4 Min.</p>
+                    </div>
+                    <div class="s2largetext">
+                        <p>BMW GROUP SETS NEW STANDARDS <br />IN AUTOMATED DRIVING</p>
+                    </div>
+                </div>
+
+            </div>
+
+
+            <div class="s2-b">
+
+                <div class="s2image-1">
+                    <img
+                        src="https://www.bmwgroup.com/content/dam/grpw/websites/bmwgroup_com/News/2024/1280x854_Batteryproduction_Teaser.png">
+                </div>
+                <div class="s2text">
+                    <div class="s2smalltext">
+                        <p>ELECTROMOBILITY</p>
+                        <p>|</p>
+                        <p>19.07.2024</p>
+                        <p>|</p>
+                        <i class="fa-regular fa-clock"></i>
+                        <p>5 Min.</p>
+                    </div>
+                    <div class="s2largetext">
+                        <p>THINK GLOBAL-ACT LOCAL FOR LOCAL: WHERE THE BMW GROUP WILL MAKE ITS NEXT GENERATION OF HIGH
+                            VOLTAGE BATTERIES.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="s2-c">
+
+
+
+                <div class="s2image-1">
+                    <img
+                        src="https://www.bmwgroup.com/content/dam/grpw/websites/bmwgroup_com/News/2024/1280x854_production-bmw-5-er.png">
+                </div>
+                <div class="s2text">
+                    <div class="s2smalltext">
+                        <p>SUSTAINABILITY</p>
+                        <p>|</p>
+                        <p>03.07.2024</p>
+                        <p>|</p>
+                        <i class="fa-regular fa-clock"></i>
+                        <p>4 Min.</p>
+                    </div>
+                    <div class="s2largetext">
+                        <p>LIMESTONE REPLACES WATER TO SAVE RESOURCES IN BMW PAINT SHOPS</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+
+        <div class="s3">
+            <div class="s3text">
+                <div class="s3smalltext">
+                    <p>SUSTAINABILITY</p>
+                    <p>|</p>
+                    <p>25.06.2024</p>
+                    <p>|</p>
+                    <i class="fa-regular fa-clock"></i>
+                    <p>5 Min.</p>
+                </div>
+                <div class="s3largetext">
+                    <p>DRIVING DECARBONISATION IN THE </p>
+                    <p id="second">SUPPLY CHAIN.</p>
+                </div>
+                <div class="s3extratext">
+                    <p>It takes a 360-degree approach to drive decarbonisation effectively across a supply chain – as
+                        BMW Group is showing.</p>
+                </div>
+            </div>
+            <div class="s3image">
+                <img
+                    src="https://www.bmwgroup.com/content/dam/grpw/websites/bmwgroup_com/News/2024/1280x854_Decarbonisation_Teaser_EN_V2.png">
+            </div>
+        </div>
+
+
+
+        <div class="s4">
+            <div class="s4-a">
+                <div class="s4image-1">
+                    <img
+                        src="https://www.bmwgroup.com/content/dam/grpw/websites/bmwgroup_com/News/2024/1280x854_Vorschau_Artcar.png">
+                </div>
+                <div class="s4text">
+                    <div class="s4smalltext">
+                        <p>COMPANY</p>
+                        <p>|</p>
+                        <p>21.05.2024</p>
+                        <p>|</p>
+                        <i class="fa-regular fa-clock"></i>
+                        <p>4 Min.</p>
+                    </div>
+                    <div class="s4largetext">
+                        <p>20th BMW ART CAR SUPPORTS ARTISTS.</p>
+                    </div>
+                    <div class="s4extratext">
+                        <p>The 20th BMW Art Car by Julie Mehretu cuts a dash at its world premiere. The artist joins
+                            forces with the BMW Group to launch a series of sponsorship projects for up-and-coming
+                            artists in Africa.</p>
+                    </div>
+                </div>
+
+            </div>
+
+
+            <div class="s4-b">
+
+                <div class="s4image-1">
+                    <img
+                        src="https://www.bmwgroup.com/content/dam/grpw/websites/bmwgroup_com/News/2024/Diversity_1280x854_V01.png">
+                </div>
+                <div class="s4text">
+                    <div class="s4smalltext">
+                        <p>COMPANY</p>
+                        <p>|</p>
+                        <p>17.05.2024</p>
+                        <p>|</p>
+                        <i class="fa-regular fa-clock"></i>
+                        <p>7 Min.</p>
+                    </div>
+                    <div class="s4largetext">
+                        <p>COME AS YOU ARE.</p>
+                    </div>
+                    <div class="s4extratext">
+                        <p>International Day Against Homophobia and Transphobia on 17 May and the subsequent Pride Month
+                            in June shine a spotlight on the needs and concerns of the queer community.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="s4-c">
+
+
+
+                <div class="s4image-1">
+                    <img
+                        src="https://www.bmwgroup.com/content/dam/grpw/websites/bmwgroup_com/News/2024/1280x854-teaser-new-mini-aceman.png">
+                </div>
+                <div class="s4text">
+                    <div class="s4smalltext">
+                        <p>DESIGN</p>
+                        <p>|</p>
+                        <p>06.05.2024</p>
+                        <p>|</p>
+                        <i class="fa-regular fa-clock"></i>
+                        <p>7 Min.</p>
+                    </div>
+                    <div class="s4largetext">
+                        <p>YOUNG, INDIVIDUAL, DIFFERENT: THE NEW ALL-ELECTRIC MINI ACEMAN.</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+
+        <div class="s5">
+            <div class="s5-a">
+                <div class="s5image-1">
+                    <img
+                        src="https://www.bmwgroup.com/content/dam/grpw/websites/bmwgroup_com/News/2024/1280x854_battery-trends-kurt.png">
+                </div>
+                <div class="s5text">
+                    <div class="s5smalltext">
+                        <p>INNOVATION</p>
+                        <p>|</p>
+                        <p>30.04.2024</p>
+                        <p>|</p>
+                        <i class="fa-regular fa-clock"></i>
+                        <p>5 Min.</p>
+                    </div>
+                    <div class="s5largetext">
+                        <p>“I THINK WE’RE MOVING IN EXACTLY THE RIGHT DIRECTION” – BATTERY EXPERTISE AT THE BMW GROUP.
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+
+
+            <div class="s5-b">
+
+                <div class="s5image-1">
+                    <img
+                        src="https://www.bmwgroup.com/content/dam/grpw/websites/bmwgroup_com/News/2024/Content_J05_1280x854px.jpg">
+                </div>
+                <div class="s5text">
+                    <div class="s5smalltext">
+                        <p>ELECTROMOBILITY</p>
+                        <p>|</p>
+                        <p>24.04.2024</p>
+                        <p>|</p>
+                        <i class="fa-regular fa-clock"></i>
+                        <p>5 Min.</p>
+                    </div>
+                    <div class="s5largetext">
+                        <p>THE NEW MINI ACEMAN.</p>
+                    </div>
+                    <div class="s5extratext">
+                        <p>The all-electric crossover model closes the gap between the MINI Cooper and the more grown
+                            MINI Countryman.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="s5-c">
+
+
+
+                <div class="s5image-1">
+                    <img
+                        src="https://www.bmwgroup.com/content/dam/grpw/websites/bmwgroup_com/News/2024/highRes_automated-surface-1280x854.png">
+                </div>
+                <div class="s5text">
+                    <div class="s5smalltext">
+                        <p>INNOVATION</p>
+                        <p>|</p>
+                        <p>17.04.2024</p>
+                        <p>|</p>
+                        <i class="fa-regular fa-clock"></i>
+                        <p>3 Min.</p>
+                    </div>
+                    <div class="s5largetext">
+                        <p>AUTOMATED SURFACE PROCESSING.</p>
+                    </div>
+                    <div class="s5extratext">
+                        <p>Digitalised and automated process to inspect, process and mark painted vehicle surfaces in
+                            series production.</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="s6">
+            <div class="readmore">
+                <p>READMORE</p>
+                <i class="fa-solid fa-chevron-right"></i>
+            </div>
+
+
+        </div>
+
+
+    </div>
+
+
+
+<div class="section-6">
+
+   <div class="s6container">
+     <div class="s6-a">
+        <a href="#">BMW</a>
+        <a href="#">MINI</a>
+        <a href="#">Rolls-Royce Motor Cars</a>
+        <a href="#">BMW Motorrad</a>
+     </div>
+     <div class="s6-a">
+        <a href="#">BMW Group Plants</a>
+        <a href="#">BMW Welt</a>
+        <a href="#">BMW Museum</a>
+        <a href="#">BMW Group Classic</a>
+     </div>
+     <div class="s6-a">
+        <a href="#">BMW M Driving Experience</a>
+        <a href="#">BMW Group PressClub</a>
+        <a href="#">BMW Group Financial Services</a>
+        <a href="#">BMW Group Careers</a>
+     </div>
+     <div class="s6-logo">
+        <img class="facebook" src="file:///C:/Users/hp/Desktop/BMW/images/facebook_rg.svg">
+        <img class="twitter" src="file:///C:/Users/hp/Desktop/BMW/images/X_rg.svg">
+        <img class="instagram" src="file:///C:/Users/hp/Desktop/BMW/images/instagram_rg.svg">
+        <img class="youtube" src="file:///C:/Users/hp/Desktop/BMW/images/youtube_rg.svg">
+        <img class="linkedin" src="c:\Users\hp\Desktop\BMW\images\linkedin_rg.svg">
+     </div>
+   </div>
+
+
+
+
+</div>
+
+<div class="section-7">
+    <div class="section-7container">
+        <p>Sitemap</p>
+        <p>Legal Disclaimer</p>
+        <p>Cookies</p>
+        <p>Imprint</p>
+        <p>Contact</p>
+        <p>Data Protection</p>
+    </div>
+</div>
+
+</body>
+
+</html>
